@@ -16,9 +16,10 @@ def convert_time(hour, minute, period):
         hour -= 12
     elif period == "pm" and hour < 12:
         hour += 12
+        period = "hours"
 
-    time = [hour, minute, period]
+    time = f"{hour:02d}{minute:02d}{period}"
     return time
-mess = convert_time(12,00,"pm")
+mess = convert_time(12,00,"am")
 print(mess)
 
