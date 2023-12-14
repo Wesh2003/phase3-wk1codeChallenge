@@ -1,10 +1,12 @@
+#Ignore this code 
 
 # The function below returns the hour, minute and period of a specific time in 24 hour format
 # the hour and minute values are integers while the period values are strings
 # The returned value will be in a list e.g 2.pm will be returned as [14,00,"pm"] e.t.c
+'''
 def time_format(hour,minute,period):
     time = []
-    if hour == 12 and period == "am":
+    if (hour == 12 and period == "am"):
         hour = 00
         time = [hour,minute,period]
         return time
@@ -102,5 +104,6 @@ def time_format(hour,minute,period):
         time = [hour,minute,period]
         return time
 
-
-
+    mess = time_format(12,00,"pm")
+    print(mess)
+'''

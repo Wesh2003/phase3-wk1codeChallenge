@@ -17,7 +17,7 @@ There are three tasks being conducted in this **Phase 3- WWeek 1 Code Challenge*
 ### Converting 12-hour time to 24-hour time
 <p>
 
-This task is conducted in the **time.py** file. This tasks requires a person to be able to convert any time written in 12 hour format into 24 hour format e.g 2.pm should coonvert to 14,00 pm 
+This task is conducted in the **timee.py** file. This tasks requires a person to be able to convert any time written in 12 hour format into 24 hour format e.g 2.pm should coonvert to 14,00 pm 
 
 </p>
 

@@ -11,3 +11,7 @@ def positive_numbers(a,b,c):
         return True
     else: 
         return False
+
+print(positive_numbers(-2,3,4))
+print(positive_numbers(1,-5,-6))
+
